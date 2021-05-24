@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+
+#Welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #FFFFFF;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.83;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    
+}
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+.Profile{
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+#name {
+    font-family: cursive ;
+}
+.line{
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    
+    margin: 8px auto;
+}
