@@ -42,7 +42,7 @@ body {
     margin: 8px auto;
 }
 .menu{
-   position: absolute;
+   position: fixed;
    list-style: none;
     font-family: Noto Sans KR;
     top: 10px;
@@ -67,6 +67,17 @@ body {
     background-color: dodgerblue;
 }
 
+a{
+    text-decoration: none;
+    
+}
 
+a:hover{
+    
+    color: red;
+}
 
+html{
+    scroll-behavior: smooth;
+}
     
